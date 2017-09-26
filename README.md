@@ -22,12 +22,12 @@ We want to show off many examples of what IBM Grid is capable of. Check out the 
 
 # Design
 
-### [IBM Grid Sketch File]()
+### IBM Grid Sketch File
 
-Use these artboards in your Sketch files to accomplish a design at each breakpoint your developer will be working with. Right click and select `Save link as` to save the file.
+Use these artboards in your Sketch files to accomplish a design at each breakpoint your developer will be working with. Right click and select `Save link as` to save this [Sketch file](https://github.com/IBM/grid/raw/master/ibm-grid.sketch).
 
 ### Do I have to use this grid design?
-For an experience to represent IBM, it should match the specs of the [Sketch file](https://github.com/IBM/grid/raw/master/ibm-grid.sketch) and [IBM Grid Checker]().
+For an experience to represent IBM, it should match the specs of the [Sketch file](https://github.com/IBM/grid/raw/master/ibm-grid.sketch) and [IBM Grid Checker](https://ibm.com/ibm/grid-checker).
 
 ### Why does IBM have a grid for all digital experiences?
 
@@ -42,7 +42,7 @@ The IBM Grid code provides the following benefits:
 - Remove the default padding when not needed for media and then reapply it on any child desired
 - Stretch the background (aka bleed) of an col on our large breakpoint when desired
 
-### [Developer Tutorial]()
+### [Developer Tutorial](https://ibm.github.io/grid/)
 
 Use this walkthrough to learn the foundational aspects of coding with the IBM Grid. Recommended for all first-time users.
 
