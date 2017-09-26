@@ -198,6 +198,65 @@
             </div>
           </div>
         </div>
+        
+        <div class="ibm-col-lg-8 ">
+          <p class="ibm-type-d">
+          By default, a column's height will expand to match an adjacent column's or column group's height. To prevent this behavior, give the column a parent element with the class ibm-col-compact.
+          </p>
+          <p class="ibm-type-d">
+          The column's height will now be determined by its content. 
+          </p>
+        </div>
+        <!-- Code Sample -->
+        <div class="ibm-col-lg-8 ibm-col-full">
+          <p class="ibm-col-lg-8 ibm-col-full_padding ibm-type-e">Create adjacent groups with independent heights:</p>
+          <pre class="ibm-col-full_padding"><code class="lang-markup"><p>&lt;div class=&quot;ibm-col-group ibm-col-compact ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-4&quot;&gt;
+      &lt;div class=&quot;ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-4&quot; style=&quot;background: #c6c6c6&quot;&gt;
+          &lt;p&gt;
+            Column height is controlled by content. Not adjacent columns. 
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;ibm-col-group ibm-col-sm-2 ibm-col-md-6 ibm-col-lg-12&quot;&gt;
+      &lt;div style=&quot;background: #a3a4a3&quot;&gt;
+          &lt;p&gt;
+              Two columns at the small and medium breakpoint, 4 at the large.
+          &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div style=&quot;background: #d8d8d8&quot;&gt;
+          &lt;p &gt;
+              Two columns at the small and medium breakpoint, 4 at the large.
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;  
+      </p></code></pre>
+        </div>
+        
+        <div class="example">
+          <div class="ibm">
+            <div class="ibm-col-group ibm-col-compact ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-4">
+              <div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-4" style="background: #c6c6c6">
+                  <p>
+                    Column height is controlled by content. Not adjacent columns. 
+                  </p>
+              </div>
+            </div>
+            <div class="ibm-col-group ibm-col-sm-2 ibm-col-md-6 ibm-col-lg-12">
+              <div style="background: #a3a4a3">
+                  <p>
+                      Two columns at the small and medium breakpoint, 4 at the large.
+                  </p>
+              </div>
+              <div style="background: #d8d8d8">
+                  <p >
+                      Two columns at the small and medium breakpoint, 4 at the large.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>  
       </section>
       
       <section class="ibm-col-group">

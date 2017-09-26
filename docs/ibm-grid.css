@@ -22,6 +22,9 @@ html, body {
   .ibm-col-group > * {
     width: 100vw; }
 
+.ibm-col-compact {
+  display: block; }
+
 .ibm > *,
 .ibm-col-group > *,
 .ibm-col-full_padding,

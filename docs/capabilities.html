@@ -7,12 +7,12 @@
     <body>
     <div class="ibm">
       <div>
-        <h1 class="ibm-type-h">IBM Grid</h1>
+        <h1>IBM Grid</h1>
         <p>This page is where we test all functionality of the grid. Check out the <a href="./index.html">dev tutorial</a> for a step-by-step guide on how to use it. Source code can be found at on the <a href="https://github.com/ibm/grid">Github repo</a>.</p>
       </div>
 
       <div>
-        <h2 class="ibm-type-f">Col Widths</h2>
+        <h2>Col Widths</h2>
       </div>
 
       <div class="grey">
@@ -123,8 +123,8 @@
       </div>
 
       <div>
-        <h2 class="ibm-type-f">Hiding cols</h2>
-        <p class="ibm-type-d">Adjust your screen width smaller and larger to see cols hide and appear.</p>
+        <h2>Hiding cols</h2>
+        <p>Adjust your screen width smaller and larger to see cols hide and appear.</p>
       </div>
 
       <div class="ibm-col-sm-0 ibm-col-md-8 grey">
@@ -152,7 +152,7 @@
       </div>
 
       <div>
-        <h2 class="ibm-type-f">Bleeding cols on Large Breakpoint</h2>
+        <h2>Bleeding cols on Large Breakpoint</h2>
       </div>
       
       <div class="ibm-col-bleed teal">
@@ -167,7 +167,7 @@
       </div>
 
       <div>
-        <h2 class="ibm-type-f">Maintain an Aspect Ratio with Height</h2>
+        <h2>Maintain an Aspect Ratio with Height</h2>
       </div>
       
       <div class="ibm-col-ratio-sm-16 ibm-col-ratio-md-8 ibm-col-ratio-lg-4 blue">
@@ -194,7 +194,7 @@
       </div>
 
       <div>
-        <h2 class="ibm-type-f">Removing Padding and then Reapplying</h2>
+        <h2>Removing Padding and then Reapplying</h2>
       </div>
 
       <div class="ibm-col-full red">
@@ -225,7 +225,7 @@
       </div>
 
       <div>
-        <h2 class="ibm-type-f">Group cols for Sub Rows/Columns</h2>
+        <h2>Group cols for Sub Rows/Columns</h2>
       </div>
 
       <div class="ibm-col-md-4 purple">
@@ -241,7 +241,7 @@
       </div>
 
       <div>
-        <h2 class="ibm-type-f">Complex Group cols for Sub Rows/Columns</h2>
+        <h2>Complex Group cols for Sub Rows/Columns</h2>
       </div>
 
       <div class="ibm-col-md-4 ibm-col-group">
@@ -267,6 +267,30 @@
           <p class="label">ibm-col-md-4  ibm-col-ratio-lg-16 ibm-col-bleed-right > ibm-col-ratio_content</p>
         </div>
       </div>
+      <div>
+          <h2>Adjacent Groups with Independent Heights Using ibm-col-compact</h2>
+      </div>
+        
+      <div class="ibm-col-group ibm-col-compact ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-4">
+        <div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-4 purple">
+            <p>
+              ibm-col-sm-1 ibm-col-md-2 ibm-col-lg-4 
+            </p>
+        </div>
+      </div>  
+      <div class="ibm-col-group ibm-col-sm-2 ibm-col-md-6 ibm-col-lg-12">
+        <div class="teal">
+            <p>
+                {no classnames}
+            </p>
+        </div>
+        <div class="red">
+            <p>
+                {no classnames}
+            </p>
+        </div>
+      </div>
+        
     </div>
     <link rel="stylesheet" type="text/css" href="./ibm-grid.min.css">
     <style>
