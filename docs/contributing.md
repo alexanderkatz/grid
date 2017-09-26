@@ -9,8 +9,7 @@
 
 ## Adding an example
 
-2. Within the new file within `docs/styles/`, create an `yourPageName.css`
-3. Within the new file within `docs/`, create an html file:
+1. Within the new file within `docs/`, create an html file:
 ```
 <html>
   <head>
@@ -19,10 +18,9 @@
   </head>
   <body>
     {Your beautiful code}
-    <link rel="stylesheet" type="text/css" href="../dist/grid.min.css">
-    <link rel="stylesheet" type="text/css" href="./styles/yourPageName.css">
+    <link rel="stylesheet" type="text/css" href="./ibm-grid.min.css">
   </body>
 </html>
 ```
-4. Follow the "Editing the Grid" instructions above, but instead navigate to `http://localhost:3000/docs/index.html`
-5. Finally, add a link to your example on this README before submitting a pull request.
+2. Follow the "Editing the Grid" instructions above, but instead navigate to `http://localhost:3000/docs/yourPageName.html`
+3. Finally, add a link to your example on this README before submitting a pull request. The link should look like: `https://ibm.github.io/grid/yourPageName.html`
