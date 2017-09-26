@@ -1,0 +1,29 @@
+// Ratios - 2kb
+[class*="ibm-col-ratio-"] {
+  padding: 0;
+  position: relative;
+}
+
+@each $bp in $used {
+  @media (min-width: map-get($map, #{$bp}--breakpoint)) {
+    [class*="ibm-col-ratio-#{$bp}-"] {
+      &:after {
+        content: "";
+        display: block;
+      }
+
+      .ibm-col-ratio_content {
+        position: absolute;
+        width: 100%;
+      }
+    }
+
+    @each $ratio in $ratios {
+      .ibm-col-ratio-#{$bp}-#{$ratio} {
+        &:after {
+          padding-bottom: #{$ratio * 6.25%};
+        }
+      }
+    }
+  }
+}

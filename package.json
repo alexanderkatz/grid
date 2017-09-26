@@ -1,0 +1,21 @@
+{
+  "name": "@ibm/grid",
+  "description": "An opinionated grid for all IBM experiences.",
+  "version": "0.1.0",
+  "repository": "https://github.com/ibm/grid.git",
+  "bugs": {
+    "url": "https://github.com/ibm/grid/issues"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "author": "James Y. Rauhut <jamesrauhut@us.ibm.com>"
+}

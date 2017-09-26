@@ -1,0 +1,81 @@
+// col bleed - 5kb
+@each $bp in $breakpoints {
+  @if map-has-key($map, #{$bp}--columns) {
+    @media (min-width: #{map-get($map, lg--breakpoint)}) {
+      $a: 1;
+      $columns: map-get($map, #{$bp}--columns);
+      @while $a <= $columns {
+        .ibm-col-#{$bp}-#{$a}[class*="ibm-col-bleed-"] {
+          width: (100vw - map-get($map, #{$bp}--unit) * 2) / $columns * $a + map-get($map, lg--unit);
+        }
+        $a: $a + 1;
+      }
+    }
+
+    @media (min-width: #{map-get($map, freeze--breakpoint)}) {
+      $a: 1;
+      $columns: map-get($map, #{$bp}--columns);
+      @while $a <= $columns {
+        .ibm-col-#{$bp}-#{$a}[class*="ibm-col-bleed-"] {
+          width: (map-get($map, freeze--breakpoint) - map-get($map, freeze--unit) * 2) / $columns * $a + map-get($map, freeze--unit);
+        }
+        $a: $a + 1;
+      }
+    }
+  }
+}
+
+@each $bleed in $bleeds {
+  @media (min-width: #{map-get($map, #{$bleed}--breakpoint)}) {
+    .ibm-col-bleed,
+    .ibm-col-bleed > .ibm-col-ratio_content {
+      margin: 0 #{-1 * map-get($map, #{$bleed}--unit)};
+      width: map-get($map, #{$bleed}--width);
+    }
+
+    .ibm-col-bleed-left {
+      margin-left: #{-1 * map-get($map, #{$bleed}--unit) * map-get($map, #{$bleed}--padding)};
+      padding-left: #{2 * map-get($map, #{$bleed}--unit) * map-get($map, #{$bleed}--padding)};
+
+      .ibm-col-ratio_content,
+      > .ibm-col-full_padding {
+        padding-left: #{map-get($map, #{$bleed}--unit) * 2};
+      }
+    }
+
+    .ibm-col-bleed-right {
+      margin-right: #{-1 * map-get($map, #{$bleed}--unit) * map-get($map, #{$bleed}--padding)};
+      padding-right: #{2 * map-get($map, lg--unit) * map-get($map, #{$bleed}--padding)};
+
+      .ibm-col-ratio_content,
+      > .ibm-col-full_padding {
+        padding-right: #{map-get($map, #{$bleed}--unit) * 2};
+      }
+    }
+
+    .ibm-col-bleed:not([class*="ibm-col-ratio-"]):not(.ibm-col-full),
+    .ibm .ibm-col-bleed[class*="ibm-col-ratio-"] > .ibm-col-ratio_content {
+      left: #{map-get($map, #{$bleed}--unit)};
+      padding-left: #{2 * map-get($map, #{$bleed}--unit)};
+      padding-right: #{2 * map-get($map, #{$bleed}--unit)};
+    }
+
+    .ibm-col-bleed:not([class*="ibm-col-ratio-"]):not(.ibm-col-full).ibm-col-group {
+      left: 0;
+      padding: 0 #{map-get($map, #{$bleed}--unit)};
+
+      > * > .ibm-col-ratio_content {
+        margin: 0;
+      }
+    }
+    
+    .ibm-col-bleed > .ibm-col-full_padding {
+      padding-left: #{2 * map-get($map, #{$bleed}--unit)};
+      padding-right: #{2 * map-get($map, #{$bleed}--unit)};
+    }
+  }
+}
+
+[class*="ibm-col-bleed"].ibm-col-full {
+  padding: 0;
+}
