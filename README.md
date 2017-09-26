@@ -12,7 +12,7 @@ The Sketch file and a flexbox code implementation of the IBM Grid.
 
 ### IBM Grid Checker
 
-Check that any webpage follows the IBM Grid with our [Chrome and Firefox extension](https://ibm.com/ibm/grid-checker). This extremely helpful to developers as they code and designers as they review work.
+Check that any webpage follows the IBM Grid with our [Chrome and Firefox extension](https://github.com/ibm/grid-checker). This extremely helpful to developers as they code and designers as they review work.
 
 ### Examples
 
