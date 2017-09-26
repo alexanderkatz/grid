@@ -9,13 +9,13 @@ gulp.task('styles', function() {
       .pipe(sass().on('error', sass.logError))
       .pipe(rename('ibm-grid.css'))
       .pipe(gulp.dest('dist'))
-      .pipe(gulp.dest('docs/styles/dist'))
+      .pipe(gulp.dest('docs'))
       .pipe(cleanCSS({
         level: 2
       }))
       .pipe(rename('ibm-grid.min.css'))
       .pipe(gulp.dest('dist'))
-      .pipe(gulp.dest('docs/styles/dist'));
+      .pipe(gulp.dest('docs'));
 });
 
 gulp.task('watch',function() {
