@@ -10,15 +10,15 @@ The Sketch file and a flexbox code implementation of the IBM Grid.
 
 ---
 
-### [IBM Grid Checker](https://github.ibm.com/duo/grid-checker)
+### [IBM Grid Checker](https://ibm.com/ibm/grid-checker)
 
 Check that any webpage follows the IBM Grid with this Chrome and Firefox extension. This extremely helpful to developers as they code and designers as they review work.
 
 ### Examples
 
 We want to show off many examples of what IBM Grid is capable of. Check out the examples below and learn at the bottom of this document how to provide a new example:
--  [Capabilities](https://github.ibm.com/pages/duo/grid/examples/capabilities/index.html) ([Source](./docs/capabilities.html))
--  [Dev Tutorial](https://github.ibm.com/pages/duo/grid/examples/index.html) ([Source](./docs/index.html))
+-  [Capabilities](https://ibm.github.io/grid/capabilities.html) ([Source](./docs/capabilities.html))
+-  [Dev Tutorial](https://ibm.github.io/grid/) ([Source](./docs/index.html))
 
 # Design
 
@@ -27,7 +27,7 @@ We want to show off many examples of what IBM Grid is capable of. Check out the 
 Use these artboards in your Sketch files to accomplish a design at each breakpoint your developer will be working with. Right click and select `Save link as` to save the file.
 
 ### Do I have to use this grid design?
-For an experience to represent IBM, it should match the specs of the [Sketch file](h) and [IBM Grid Checker]().
+For an experience to represent IBM, it should match the specs of the [Sketch file](https://github.com/IBM/grid/raw/master/ibm-grid.sketch) and [IBM Grid Checker]().
 
 ### Why does IBM have a grid for all digital experiences?
 
