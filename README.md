@@ -10,9 +10,9 @@ The Sketch file and a flexbox code implementation of the IBM Grid.
 
 ---
 
-### [IBM Grid Checker](https://ibm.com/ibm/grid-checker)
+### IBM Grid Checker
 
-Check that any webpage follows the IBM Grid with this Chrome and Firefox extension. This extremely helpful to developers as they code and designers as they review work.
+Check that any webpage follows the IBM Grid with our [Chrome and Firefox extension](https://ibm.com/ibm/grid-checker). This extremely helpful to developers as they code and designers as they review work.
 
 ### Examples
 
@@ -42,17 +42,17 @@ The IBM Grid code provides the following benefits:
 - Remove the default padding when not needed for media and then reapply it on any child desired
 - Stretch the background (aka bleed) of an col on our large breakpoint when desired
 
-### [Developer Tutorial](https://ibm.github.io/grid/)
+### Developer Tutorial
 
-Use this walkthrough to learn the foundational aspects of coding with the IBM Grid. Recommended for all first-time users.
+Use [this walkthrough](https://ibm.github.io/grid/) to learn the foundational aspects of coding with the IBM Grid. Recommended for all first-time users.
 
 ### Do I have to use this grid code?
 
 You do not need to use the code in this repo. We understand that there are many ways to accomplish the same goal in code. The flexbox code provided here is to help anyone who wants it.
 
-### Where is the [CSS Grid Spec](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) implementation?
+### Where is the CSS Grid Spec implementation?
 
-We want it also. However, many of our experiences support IE11 at the moment. If your experience does not need to support IE11 or you do not need the [missing specs in IE11](https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/), feel free to use CSS Grid.
+We want to use the [CSS Grid Spec](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout). However, many of our experiences support IE11 at the moment. If your experience does not need to support IE11 or you do not need the [missing specs in IE11](https://rachelandrew.co.uk/archives/2016/11/26/should-i-try-to-use-the-ie-implementation-of-css-grid-layout/), feel free to use CSS Grid.
 
 If you would like to help develop a resource to implement this grid using CSS Grid, all contributions are welcome!
 
