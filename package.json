@@ -17,5 +17,6 @@
   "scripts": {
     "start": "gulp watch"
   },
-  "author": "James Y. Rauhut <jamesrauhut@us.ibm.com>"
+  "author": "James Y. Rauhut <jamesrauhut@us.ibm.com>",
+  "dependencies": {}
 }

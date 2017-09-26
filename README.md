@@ -40,7 +40,25 @@ The IBM Grid code provides the following benefits:
 - Specify an col's width and existence at different breakpoints
 - Group cols together to form any combination of nested rows and columns
 - Remove the default padding when not needed for media and then reapply it on any child desired
-- Stretch the background (aka bleed) of an col on our large breakpoint when desired
+- Stretch the background (aka bleed) of an col on our large breakpoint when
+
+### How to Use
+
+To install, run `npm install @ibm/grid`
+
+If you want to use the compiled css, reference the file in the dist folder:
+```
+<link rel="stylesheet" type="text/css" href="node_modules/@ibm/grid/dist/ibm-grid.min.css">
+```
+
+If you want to use the sass partials, import the files in the src folder:
+```
+@import 'node_modules/@ibm/grid/src/_core.scss';
+@import 'node_modules/@ibm/grid/src/_bleed.scss';
+@import 'node_modules/@ibm/grid/src/_ratio.scss';
+```
+
+Check out the Performance section below for a description of each partial.
 
 ### Developer Tutorial
 
